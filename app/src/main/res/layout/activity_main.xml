@@ -14,11 +14,15 @@
         android:id="@+id/textoPresentacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hola mundo" />
+        android:text="hola mundo"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:textSize="24sp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Button"
-        android:id="@+id/button" />
+        android:id="@+id/button"
+        android:background="#f52727" />
 </LinearLayout>
